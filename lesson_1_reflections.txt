@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By pointing out the differences in the two files we could deduce the cause of the bug since we know one of the version works without problem, so whatever the issue was has got to do with the changes made in the other file.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+With access to each of the past versions of a program, we can easily compare the versions to see what was changed or added/deleted.  Hence easily pinpoint the area that could've been causing issues with running the program.  Therefore saving time during troubleshooting.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros would be that the user have ultimate control as to when to commit a save.  And more likely to recall the changes of a commit at a later time.  Cons would be the user could take a long time between commits, or over commits every little change, bringing down efficience.  Auto save could be good because the user don't have to think about saving.  Cons would be it might save at unnecessary points, or points that would make it hard for the user to recall what changes were made and why.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Since Git is aimed mainly at programmers, whom often work on projects that include multiple files each related to one another it makes sense to allow all the files to be commited at once because it's very likely that changes would be make to several of the files at once.  Google Docs on the other hand, is often used with files that are mostly function independantly.  So there's no real need to save changes on multiple files together.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+I'll use git log to find the IDs of the very first and very last commits and then usd git diff to compare the two.  All the changes through out history would be presented.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Since I can return and "checkout" any of the previous versions at any moment, I'm pretty confident to make changes that may break the program.  If bugs are produced I can simply refer to the previous versions and find out when and how it was introduced.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to used Git for all my future projects for this Nanodegree and possibly work projects later on.
