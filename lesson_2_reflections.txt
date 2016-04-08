@@ -5,4 +5,9 @@ When initializing a repository, a hidden .git directory is created that will tak
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-Staging area holds files temporarily that could end up being committed.  Files in both the working directory and repository are permanent.  Files in the Staging area can be removed from committing.  Really, the staging area is just a place for files from the working directory that are marked to be committed.  The actual files are still in the working directory.
+Staging area holds files temporarily that could end up being committed.  It's a transitional area for files from the working directory and to the repository.  Files in both the working directory and repository are permanent and saved.  Files in the Staging area can be removed from committing.  Really, the staging area is just a place for files from the working directory that are marked to be committed.  It allows users to compare difference between files from the working directory and repository.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+We can compare the files in the staging area with their committed versions in the repository.  Only after confirm the changes that's been made in the staging area files would we commit them to the repository.
