@@ -27,3 +27,9 @@ The diagrams makes it clear the flow of each branch and where each of the branch
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result of merging two branches together is that commits from both branches are not become one.  And everything is combined under one label.  The diagram is shown as such so we can see that the new head commit after the merge has access to all of the previous commits from both branches.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Pros of auto merging: less hassle for the user; it will always perform as instructed (no human error); fast.
+Cons: may run into conflicts that can't be solved with auto merge.
