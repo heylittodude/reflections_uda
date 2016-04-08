@@ -22,3 +22,8 @@ Or when you want to adopt your projects for different purposes with alternate va
 How do the diagrams help you visualize the branch structure?
 
 The diagrams makes it clear the flow of each branch and where each of the branches split from the master branch.  It's like tree branch spliting up into smaller branches.  It makes tracking the location of each commit relative to the origin very simple.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that commits from both branches are not become one.  And everything is combined under one label.  The diagram is shown as such so we can see that the new head commit after the merge has access to all of the previous commits from both branches.
