@@ -23,3 +23,9 @@ This way even if you are working offline, you can still have a copy of the most 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Without Git or Github, I would probably use something like Google Docs or Dropbox.  Google Docs is nice because you can have mutiple users making changes to the document at the same time.  And Dropbox is good for sharing files across the board.  But neither of them are very good for use in making changes to programming codes. They just don't have the features that Git or Github do when it comes to comparing differences in different versions of the code and merging branches and such.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When you are collaborating on the project with other people, you would want to have the changes you've made on another branch.  The benefit of this would be that you have to push that branch to github and allow other to see if the changes you've made will create a conflict or not with whatever they're doing.  Only when everyone has approved of your changes should you commit it to the master branch.
+Making changes directly in the master branch would be less hassle and quicker, but should really be used when you are sure it won't cause any problems in the master branch.
